@@ -24,5 +24,6 @@ TC002_POST
     Should Be Equal As Strings    ${response.status_code}    201
     log    ${response.text}
 
+*** Keywords ***
 
 
